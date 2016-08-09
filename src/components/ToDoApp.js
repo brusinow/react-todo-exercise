@@ -6,7 +6,7 @@ class ToDoApp extends React.Component {
 
   componentWillMount(){
     this.setState({
-      list: ['thing1', 'thing2', 'thing3']
+      list: ['item1', 'item2', 'item3']
     })
   };
   onInputChange = (event) => {
